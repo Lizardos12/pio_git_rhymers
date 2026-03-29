@@ -20,6 +20,10 @@ public class DefaultCountingOutRhymer {
         return total == STACK_EMPTY;
     }
 
+    public int getTotal() {
+        return total;
+    }
+
     public boolean isFull() {
         return total == STACK_FULL;
     }
