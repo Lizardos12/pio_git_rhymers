@@ -74,5 +74,5 @@ public class RhymersJUnitTest {
         result = rhymer.countOut();
         Assert.assertEquals(EMPTY_STACK_VALUE, result);
     }
-
+    // Projekt jest poprawny, testy jednostkowe przechodzą pomyślnie. Nie było potrzeby poprawy kodów źródłowych.
 }
