@@ -3,8 +3,8 @@ package edu.kis.vh.nursery.list;
 public class IntLinkedList {
 
     private static final int ERROR = -1;
-     private Node last;
-    int i;
+    private Node last;
+    int i; // TODO z punktu 18 :)
 
     public void push(int i) {
         if (last == null)
@@ -38,4 +38,13 @@ public class IntLinkedList {
         return ret;
     }
 
+    // Klasa przeniesiona z pliku Node.java
+    private class Node {
+        final int value;
+        Node prev, next;
+
+        public Node(int i) {
+            value = i;
+        }
+    }
 }
