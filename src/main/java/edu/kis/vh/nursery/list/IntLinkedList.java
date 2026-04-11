@@ -7,7 +7,7 @@ public class IntLinkedList {
 
     private static final int ERROR = -1;
     private Node last;
-    int i; // TODO z punktu 18 :)
+    int i; // TODO: needs refactoring - usunąć nieużywaną zmienną 'i'
 
     /**
      * Dodaje nowy element na koniec listy.
